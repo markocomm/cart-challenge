@@ -9,6 +9,11 @@ We also have an enum to make sure we have some unique way to identify different 
 
 This challenge has bugs, bad code practices and lacks any tests.
 
+## Rules
+- No using ChatGPT, don't worry, we'll know if you did :)
+- Work solo, try not to help eachother out unless absolutely neccessary
+- Don't put your solution in the Discord, only here
+
 ## How to take part
 1. First steps add your [SSH Key to GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh), this will make this a lot easier
 2. Fork the repository
