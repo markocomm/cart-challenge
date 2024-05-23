@@ -1,14 +1,19 @@
 {
   "name": "product-catalog",
+  "type": "module",
   "version": "1.0.0",
   "description": "A simple test with bugs and lacking tests ",
-  "scripts": {
-    "start": "ts-node src/index.ts",
-    "test": "vitest"
-  },
   "author": "Ethan Morgan",
   "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "vitest",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
   "dependencies": {
+    "@antfu/eslint-config": "^2.18.1",
+    "@antfu/ni": "^0.21.12",
     "eslint": "^9.3.0",
     "prettier": "^3.2.5",
     "ts-node": "^10.9.2",

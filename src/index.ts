@@ -28,31 +28,27 @@ class Cart {
 
   removeProduct(product: Product): boolean {
     for (const prod of this.products) {
-      if (prod.name == product.name) {
+      if (prod.name == product.name)
         return true
-      }
     }
 
     return true
   }
 
   getProductsByCategory(category: Category): Product[] {
-
     const prodList: Product[] = []
 
     for (const prod of this.products) {
-      if (prod.category === category) {
+      if (prod.category === category)
         prodList.push(prod)
-      }
     }
 
     return []
   }
 
   listProducts(): void {
-    for (const prod of this.products) {
+    for (const prod of this.products)
       console.log(`${prod.name} - ${prod.code} - ${prod.category}`)
-    }
   }
 
   getAllProducts(): Product[] {
@@ -61,9 +57,8 @@ class Cart {
 
   getProductsByName(name: string): Product | Product[] | null {
     for (const prod of this.products) {
-      if (prod.name === name) {
+      if (prod.name === name)
         return prod
-      }
 
       return null
     }
@@ -73,43 +68,35 @@ class Cart {
 }
 
 const mockedProducts: Product[] = [{
-  name: 'Jeans',
-  code: '3a984kl10u',
+  name: "Jeans",
+  code: "3a984kl10u",
   category: Category.Clothing,
-},
-{
-  name: 'Hoodie',
-  code: '9y9243k10s',
+}, {
+  name: "Hoodie",
+  code: "9y9243k10s",
   category: Category.Clothing,
-},
-{
-  name: 'Socks',
-  code: '1y5223610s',
+}, {
+  name: "Socks",
+  code: "1y5223610s",
   category: Category.Clothing,
-},
-{
-  name: 'Bread',
-  code: '2k3841l10p',
+}, {
+  name: "Bread",
+  code: "2k3841l10p",
   category: Category.Food,
-},
-{
-  name: 'Cheese',
-  code: '5k1S4hl10p',
+}, {
+  name: "Cheese",
+  code: "5k1S4hl10p",
   category: Category.Food,
-},
-{
-  name: 'Soup',
-  code: '4a624kl15m',
+}, {
+  name: "Soup",
+  code: "4a624kl15m",
   category: Category.Food,
-},
-{
-  name: 'Mouse',
-  code: '4a624kl15m',
+}, {
+  name: "Mouse",
+  code: "4a624kl15m",
   category: Category.Electronic,
-},
-{
-  name: 'Keyboard',
-  code: '7a624kl15m',
+}, {
+  name: "Keyboard",
+  code: "7a624kl15m",
   category: Category.Electronic,
-}
-]
+}]
