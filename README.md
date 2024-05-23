@@ -1,5 +1,7 @@
 # Product Cart Challenge
 
+[Discord Server](https://discord.gg/UmYGKbntvt)
+
 This weeks challenge (24/05/2024) is a simple one.
 
 We have 2 classes and an enum. One is used for creating an object, other other is for interacting with a cart.
