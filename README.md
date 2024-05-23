@@ -27,6 +27,6 @@ The winner will be chosen based of these criteria
 - Made use of good practices and more advanced concepts
 
 ### Final Steps
-The winner of each challenge will be 3 days after the challenge announcement
+The winner of each challenge will be 7 days after the challenge announcement
 
 The person who wins the weekly challenge, gains the `challenge winner` role in the Discord for the next 7 days.
