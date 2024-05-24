@@ -20,6 +20,7 @@ This challenge has bugs, bad code practices and lacks any tests. Make sure to ru
 - No using ChatGPT, don't worry, we'll know if you did :)
 - Work solo, try not to help eachother out unless absolutely neccessary
 - Don't put your solution in the Discord, only here
+- You can change the parameter and return types if you wish
 
 ## How to take part
 1. First steps add your [SSH Key to GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh), this will make this a lot easier
