@@ -31,14 +31,13 @@ This challenge has bugs, bad code practices and lacks any tests. Make sure to ru
 7. Then wait for review :)
 
 ### Winner Criteria
-The winner will be chosen based of these criteria
+The winner will be chosen based of these criteria during the challenges
 
 - The cleanest code
-- Good amount of tests added, with a bunch of scenarios tested
-  - Don't just add a bunch of pointless tests, make sure they prove something and more importantly, **PASS**!
+- Test written for each bug and/or improvement, see the [Vitest Docs](https://vitest.dev/guide/)
 - Made use of good practices and more advanced concepts
 
 ### Final Steps
 The winner of each challenge will be 7 days after the challenge announcement
 
-The person who wins the weekly challenge, gains the `challenge winner` role in the Discord for the next 7 days.
+The person who wins the weekly challenge, gains the `Challenge Winner` role in the Discord for the next 7 days.
