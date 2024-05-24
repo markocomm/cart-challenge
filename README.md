@@ -7,7 +7,14 @@ This weeks challenge (24/05/2024) is a simple one.
 We have 2 classes and an enum. One is used for creating an object, other other is for interacting with a cart.
 We also have an enum to make sure we have some unique way to identify different products.
 
-This challenge has bugs, bad code practices and lacks any tests.
+This challenge has bugs, bad code practices and lacks any tests. Make sure to run eslint to find some issues.
+
+## Current Bugs
+- When creating a product, there seems to be an issue with the name and code
+- When removing a product from the cart, it always shows it was successfully  removed even if the item wasn't in the cart to begin with
+- When I add a new product to the cart, I can add the same product multiple times
+- When I go to get a product by name, it will only get ones that are 1-1 matching, not ones that might start with the same 2 or 3 letters
+- When I try to get products by category I never get for any categories
 
 ## Rules
 - No using ChatGPT, don't worry, we'll know if you did :)
