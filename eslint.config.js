@@ -3,7 +3,7 @@ import antfu from "@antfu/eslint-config"
 export default antfu({
   rules: {
     "no-console": "off",
-    "ts/consistent-type-definitions": "off",
+    "ts/consistent-type-definitions": "on",
     "antfu/top-level-function": "off",
     "style/max-len": ["error", { code: 80 }],
     "style/yield-star-spacing": ["error", "after"],

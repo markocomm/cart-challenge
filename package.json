@@ -16,7 +16,9 @@
     "@antfu/ni": "^0.21.12",
     "eslint": "^9.3.0",
     "prettier": "^3.2.5",
-    "ts-node": "^10.9.2",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
     "vitest": "^1.6.0"
   }
 }
